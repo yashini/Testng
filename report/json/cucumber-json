@@ -1,0 +1,194 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Automation testing URl demo",
+        "description": "",
+        "id": "demo-automating-testing;automation-testing-url-demo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11578117036,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on Demo Site Testing page",
+            "match": {
+              "location": "steplogin1.login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4135614056,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user launch app with URL",
+            "match": {
+              "location": "steplogin1.launch()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3357528951,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on skip sign in",
+            "match": {
+              "location": "steplogin1.skip()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 66363331,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on Automation Demo Site page",
+            "match": {
+              "location": "steplogin1.verify()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 320300143,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter as \"Yashini\" into firstname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Yashini",
+                  "offset": 10
+                }
+              ],
+              "location": "steplogin1.first(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2208919907,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Close the browser",
+            "match": {
+              "location": "steplogin1.close()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Register Page Testing",
+        "description": "",
+        "id": "demo-automating-testing;register-page-testing",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2610106453,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user is on Demo Site Testing page",
+            "match": {
+              "location": "steplogin1.login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4309340700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user launch app with URL",
+            "match": {
+              "location": "steplogin1.launch()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4785456401,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user clicks on skip sign in",
+            "match": {
+              "location": "steplogin1.skip()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 94178455,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user is on Automation Demo Site page",
+            "match": {
+              "location": "steplogin1.verify()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12390965487,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "enter text for name field",
+            "match": {
+              "location": "steplogin1.register()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2144606375,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Close the browser",
+            "match": {
+              "location": "steplogin1.close()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@Test2"
+          }
+        ]
+      }
+    ],
+    "name": "Demo automating Testing",
+    "description": "",
+    "id": "demo-automating-testing",
+    "keyword": "Feature",
+    "uri": "login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Test"
+      }
+    ]
+  }
+]
